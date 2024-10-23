@@ -1,0 +1,62 @@
+body{
+  background-color: rgb(199, 226, 226);
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+
+.stopwatch{
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  border: 5px solid black;
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 5rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  background-color:rgb(220, 189, 110);
+  color: rgb(44, 2, 10);
+  margin-bottom: 20px;
+}
+.buttons button{
+  justify-content: space-between;
+  margin:0.5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+  padding: 10px 20px;
+  min-width: 125px;
+  cursor: pointer;
+}
+
+.start-button{
+  background-color: rgb(40, 146, 75);
+  size: 3rem;
+  color:white;
+}
+
+.start-button:hover{
+  background-color: rgb(64, 163, 97);
+}
+
+.stop-button{
+  background-color: rgb(209, 41, 52);
+  size: 3rem;
+  color:white;
+}
+
+.stop-button:hover{
+  background-color: rgb(210, 62, 72);
+}
+
+.reset-button{
+  background-color: rgb(74, 58, 181);
+  size: 3rem;
+  color:white;
+}
+
+.reset-button:hover{
+  background-color: rgb(95, 80, 181);
+}
